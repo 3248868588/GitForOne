@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<script>
+    function mytoast1(s){
+        mytoast.ShowToast(s);
+    }
+    function mytoast2(){
+       var value=document.getElementById("t1").value;
+       mytoast.ShowToast(value);
+    }
+</script>
+<body>
+<button onclick="mytoast1('this ia a ahhh')">test</button>
+<br>
+<a href="#" onclick="mytoast1('this ia a ahhh')">eee</a>
+<a href="#" onclick="mytoast1('wwwwwwwww')">eee</a>
+<br>
+<input id="t1">
+<a href="#" onclick="mytoast2()">toast</a>
+</body>
